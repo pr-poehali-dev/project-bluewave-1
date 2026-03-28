@@ -45,6 +45,7 @@ export default function LandingPage() {
     <Layout>
       <div className="fixed top-0 left-0 z-30 p-6">
         <span className="text-white font-bold text-xl tracking-[0.2em] uppercase">ЛИЗАРТ</span>
+        <p className="text-[#4A9EFF] text-xs tracking-widest uppercase mt-0.5">Блочно-модульные котельные</p>
       </div>
       <nav className="fixed top-0 right-0 h-screen flex flex-col justify-center z-30 p-4">
         {sections.map((section, index) => (
